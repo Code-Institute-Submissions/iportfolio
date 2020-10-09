@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 
 
+/*colors used
+primary color white = #fdfdfd;
+
+secondary color black = #2e3029;
+
+accent color blue = #326273;
+
+accent color green = #729b79;
+
+hover link color = #9b9b9b;
+*/
+
 /*----GENERAL PAGE----*/
 
 * {
@@ -13,6 +25,19 @@ body {
     font-family: "Signika", sans-serif;
 }
 
+.section-break {
+    background-color: #2e3029;
+    width: 60vw;
+    height: 3px;
+    margin: 70px auto 0 auto;
+    border-radius: 20px;
+}
+
+.arrow__icon i {
+    color: #2e3029;
+    margin: 120px auto 0 auto;
+    font-size: 2rem;
+}
 
 /*----PADDINGS,MARKINGS,TEXT----*/
 
@@ -30,21 +55,145 @@ body {
 #logo {
     font-size: 2em;
     font-weight: 600;
+    color: #2e3029;
+    display: inline-block;
 }
 
+.nav {
+    transition: 0.3s all ease;
+    width: 260px;
+    height: 100%;
+    background: rgba(229,229,229,0.5);
+    z-index: 9999;
+}
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+  .menu__item {
+    font-size: 1.4rem;
+    color: #2e3029;
+    padding: 1.2rem;
+    transition: 0.3s all ease;
+    text-align: left;
+  }
+  .menu__item:hover {
+    background: #fdfdfd;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #2e3029;
+  }
+
+  a:visited {
+      color: #2e3029;
+  }
+
+  a:hover {
+      color: #9b9b9b;
+      text-decoration: none;
+      list-style-type: none;
+      transition: 0.3s all ease;
+  }
+
+  /**** hamburger icon ****/
 
 
 /*----HERO CONTENT----*/
 
+.hero__background {
+    position: relative;
+    width: 310px;
+    height: 210px;
+    background-color: #326273;
+    border-radius: 40px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.hero__text {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    top: 40px;
+}
 
+.text__line__1 {
+    color: #2e3029;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.ivan__hero {
+    font-weight: 600;
+}
+
+.text__line__2 {
+    color: #fdfdfd;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.text__line__3 {
+    color: #2e3029;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.available__header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.available__text {
+    font-size: 1rem;
+    display: inline-block;
+
+}
+
+.available__dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #729b79;
+}
+
+.work__btn {
+    background-color: #729b79;
+    border-radius: 40px;
+    color: #fdfdfd;
+    margin-top: 20px;
+}
 
 
 /*----ABOUT ----*/
 
+.about__title {
+    color: #2e3029;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 55px;
+}
 
+#about__img {
+    
+}
 
-
+p {
+    width: 200px;
+    margin-top: 20px;
+}
 
 /*----SKILLS----*/
 

@@ -2,23 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <title>Portfoliio of Ivan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <title>Portfoliio of Ivan</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.min.css" integrity="sha512-gIn3+aW4xrkqoIvXsJ7F3woKfU+KTvEzXm0IXKmWqXZ8oyD9TfzFEdGDMF0egqto86E91yZVPzoa82a/dgSMig==" crossorigin="anonymous" />
-    <link href="path/to/css/mmenu.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
 <!--CONTENT-->
 
-<div class="container-fluid">
+<!--Nav ...need to fix off-canvas toward end-->
+    <nav class="navbar navbar-light bg-light nav sticky-top">
+    <ul class="menu">
+        <li class="nav__item active"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="#about">About Me</a></li>
+        <li class="nav__item"><a href="#">Skills</a></li>
+        <li class="nav__item"><a href="#">Work</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>        
+    </ul>
 
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" id="logo" href="index.html">IVAN LUPAKA</a>
-</nav>
+        <div class="row">
+            <div class="col-12">
+                <a class="navbar-brand" id="logo" href="index.html">IVAN LUPAKA</a>
+            </div>
+        </div>
+    </nav>
 
-</div>
+    <div class="container-fluid content">
+
+        
+
+        <!--Hero Content-->
+        <div class="row">
+            <div class="col-12">
+                <div class="hero__background">
+                    <div class="hero__text">
+                        <p class="text__line__1">Hello,</p>
+                        <p class="text__line__2">I'm <span class="ivan__hero">Ivan</span>,</p>
+                        <p class="text__line__3">Software Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Available for work header-->
+        <div class="row">
+            <div class="col-12">
+                <div class="available__header">
+                <div class="available__dot"></div>
+                <p class="available__text">Available For Work</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Work Button-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <button type="button" class="btn work__btn">MY WORK</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="section-break"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="arrow__icon"><i class="fas fa-arrow-circle-down"></i></div>
+            </div>
+        </div>
+
+        <!--About Me Section-->
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="about" class="about__title">ABOUT ME</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="../assets/images/ivan.png" class="img-fluid rounded" id="about__img" style="width: 330px; margin-top: 130px;" alt="An Image Of Ivan Lupaka">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="dark-background">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p class="about-main-text">
+                                I am an easy going guy who loves all things tech. Having studied for a diploma in software development, I look forward to working on exciting projects and further improving my skills.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        
+
+    </div>
+
 
 
 <!--CONTENT-->
@@ -27,8 +126,6 @@
 
 <!--SCRIPTS-->
 
-<script src="path/to/js/mmenu.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.js" integrity="sha512-xiPiMa9CBqBywfZ355ZxSugy6rnEHZhdz1fSA1QSU9jN40mwNLqEtKulAniN88jkbLC96TBa259OYXs0Aas/2Q==" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
