@@ -6,32 +6,67 @@
     <title>Portfoliio of Ivan</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.min.css" integrity="sha512-gIn3+aW4xrkqoIvXsJ7F3woKfU+KTvEzXm0IXKmWqXZ8oyD9TfzFEdGDMF0egqto86E91yZVPzoa82a/dgSMig==" crossorigin="anonymous" />    
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <!--CONTENT-->
 
 <!--Nav ...need to fix off-canvas toward end-->
-    <nav class="navbar navbar-light bg-light nav">
-    <div class="row">
+    <nav class="navbar navbar-light bg-light sticky-top">
+        <a class="navbar-brand logo" href="index.html">IVAN LUPAKA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navbar-toggle"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div class="container-fluid">
+            <div class="navbar-header">
+                    <i class="fas fa-bars nav__icon navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#myNavbar"></i> 
+            </div>
+            <div class="navbar-offcanvas navbar-offcanvas-fade" id="myNavbar">
+                <ul class="nav navbar-nav" role="navigation">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">menu 1</a></li>
+                    <li><a href="#">menu 2</a></li> 
+                </ul>
+            </div>
+        </div> -->
+
+    <!-- <ul class="menu">
+            <li class="nav__item active"><a href="index.html">Home</a></li>
+            <li class="nav__item"><a href="#about">About Me</a></li>
+            <li class="nav__item"><a href="#">Skills</a></li>
+            <li class="nav__item"><a href="#">Work</a></li>
+            <li class="nav__item"><a href="#">Contact</a></li>        
+        </ul> -->
+
+    <!-- <div class="row">
             <div class="col-12">
                 <a class="navbar-brand" id="logo" href="index.html">IVAN LUPAKA</a>
             </div>
-        </div>
-    <ul class="menu">
-        <li class="nav__item active"><a href="index.html">Home</a></li>
-        <li class="nav__item"><a href="#about">About Me</a></li>
-        <li class="nav__item"><a href="#">Skills</a></li>
-        <li class="nav__item"><a href="#">Work</a></li>
-        <li class="nav__item"><a href="#">Contact</a></li>        
-    </ul>
-
-        
-    </nav>
+        </div> -->
 
     <div class="container-fluid">
-
-        
 
         <!--Hero Content-->
         <div class="row">
@@ -139,7 +174,7 @@
 
         <!--Skills Section-->
 
-        <div class="row">
+        <div id="skills" class="row">
             <div class="col-12 text-center">
                 <h2 class="skills__header">SKILLS</h2>
             </div>
@@ -255,7 +290,7 @@
 
         <!--Work Section-->
 
-        <div class="row">
+        <div id="work" class="row">
             <div class="col-12 text-center">
                 <h2 class="work__header">WORK</h2>
             </div>
@@ -384,7 +419,7 @@
 
     <!--Contact Section-->
 
-        <div class="row">
+        <div id="contact" class="row">
             <div class="col-12 text-center">
                 <h2 class="contact__header">CONTACT</h2>
             </div>
@@ -490,7 +525,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.18/mmenu.min.js" integrity="sha512-2uNmiP5LyAGw/+V9LErnph3zyGKVTcAxp2VCG1PnAucQ1YqQABr/1uuA0mv0vJCIZbwT1x8TEf6hhW/+zQNc4A==" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
 
 <!--SCRIPTS-->
 </body>
