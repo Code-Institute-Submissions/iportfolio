@@ -224,7 +224,7 @@ body {
 
 .formal__header {
     color: #fdfdfd;
-    margin-left: 10px;
+   
 }
 
 .informal__header {
@@ -416,11 +416,6 @@ body {
     margin-top: 85px;
 }
 
-.background__image {
-    background: rgb(46,48,41);
-background: linear-gradient(0deg, rgba(46,48,41,1) 0%, rgba(46,48,41,1) 30%, rgba(253,253,253,1) 30%, rgba(255,255,255,1) 30%);
-}
-
 .project__img {
     width: 290px; 
     margin-top: 60px;
@@ -429,8 +424,13 @@ background: linear-gradient(0deg, rgba(46,48,41,1) 0%, rgba(46,48,41,1) 30%, rgb
 .project__background {
     background-color: #2e3029;
     height: 370px;
-    margin-top: 0px;
+    margin-top: 30px;
     z-index: 0;
+    border-radius: 10%;
+}
+
+.project__content {
+    margin-top: 10px;
 }
 
 .project__name {
