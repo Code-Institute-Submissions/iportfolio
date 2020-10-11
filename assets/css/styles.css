@@ -224,15 +224,13 @@ body {
 
 .formal__header {
     color: #fdfdfd;
-    display: inline-block;
-    margin-right: 70px;
+    margin-left: 10px;
 }
 
 .informal__header {
     color: #fdfdfd;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 
+
+    
 }
 
 .trait__list {
@@ -241,24 +239,26 @@ body {
 
 .formal__list {
     color: #fdfdfd;
-    display: inline-block;
-    margin-right: 60px;
+    line-height: 1.9;
+    font-size: .85rem;
     list-style-type: none;
+    margin-top: 15px;
+    
 }
 
 .vert-line {
-    border-left: 3px solid #fdfdfd;
-    height: 150px;
-    display: inline-block;
-    border-radius: 50px;
+    border-left: 3px solid #fdfdfd; 
+    height: 150px; 
+    left: 8%;
+    margin-top: 25px;
 }
 
 .informal__list {
     color: #fdfdfd;
-    display: inline-block;
-    margin-left: 60px;
+    line-height: 1.9;
+    font-size: .85rem;
     list-style-type: none;
-
+    margin-top: 15px;
 }
 
 
