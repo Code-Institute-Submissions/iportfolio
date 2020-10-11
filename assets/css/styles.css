@@ -21,6 +21,11 @@ hover link color = #9b9b9b;
     padding: 0;
 }
 
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 body {
     font-family: "Signika", sans-serif;
 }
@@ -502,33 +507,10 @@ background: linear-gradient(0deg, rgba(46,48,41,1) 0%, rgba(46,48,41,1) 30%, rgb
     margin-top: 30px;
 }
 
-.name-form-label {
-    margin-right: 377px;
-}
-
-.name__form {
-    width: 390px;
-    margin-left: 30px;
-}
-
-.email-form-label {
-    margin-right: 377px;
-}
-
-.email__form {
-    width: 390px;
-    margin-left: 30px;
-}
-
+.name-form-label,
+.email-form-label,
 .message-form-label {
-    margin-right: 377px;
-}
-
-.message__form {
-    width: 390px;
-    margin-left: 30px;
-
-    
+    margin-left: 10px;
 }
 
 .submit__btn {
