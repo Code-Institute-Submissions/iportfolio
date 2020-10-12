@@ -15,9 +15,9 @@ Mmenu.configs.classNames.selected = "active";
                           {
                              "position": "bottom",
                              "content": [
-                                "<a class='fa fa-envelope' href='#/'></a>",
-                                "<a class='fa fa-twitter' href='#/'></a>",
-                                "<a class='fa fa-facebook' href='#/'></a>"
+                                "<a class='fab fa-instagram' href='#/'></a>",
+                                "<a class='fab fa-linkedin' href='#/'></a>",
+                                "<a class='fab fa-github-square' href='#/'></a>"
                              ]
                           }
                        ]
