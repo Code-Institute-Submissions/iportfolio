@@ -67,6 +67,17 @@ body {
     display: inline-block;
 }
 
+#my-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mburger {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+
 .nav {
     transition: 0.3s all ease;
     width: 260px;
