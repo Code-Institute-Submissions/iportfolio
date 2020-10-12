@@ -7,20 +7,7 @@ Mmenu.configs.classNames.selected = "active";
                         slidingSubmenus: false,
                         extensions: ["theme-dark",
                                     "pagedim-black", 
-                                    "position-right"],
-                        
-                        wrappers: ["bootstrap"],
-
-                        navbars: [
-                          {
-                             "position": "bottom",
-                             "content": [
-                                "<a class='fab fa-instagram' href='#/'></a>",
-                                "<a class='fab fa-linkedin' href='#/'></a>",
-                                "<a class='fab fa-github-square' href='#/'></a>"
-                             ]
-                          }
-                       ]
+                                    "position-right"]
 
                     });
                 }

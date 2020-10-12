@@ -51,26 +51,14 @@ body {
 }
 
 
-
-/*----COLORS----*/
-
-
-
-
-
 /*----NAV----*/
 
 #logo {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
     color: #2e3029;
     display: inline-block;
-}
-
-#my-content h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    
+    margin: 20px 0 0 20px;
 }
 
 .mburger--tornado {
@@ -84,20 +72,10 @@ body {
     font-size: 1.5rem;
 }
 
-.nav {
-    transition: 0.3s all ease;
-    width: 260px;
-    height: 100%;
-    background: rgba(229,229,229,0.5);
-    z-index: 9999;
+.navbar {
+    display: none;
 }
 
-.nav__icon {
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-    
-}
 
 .menu {
   list-style-type: none;
@@ -212,7 +190,8 @@ body {
     color: #fdfdfd;
 }
 
-/* Sink */
+
+/* Sink animation on arrow from https://github.com/IanLunn/Hover/blob/master/README.md#b-reference-hovercss */
 .hvr-sink {
   display: inline-block;
   vertical-align: middle;
@@ -230,6 +209,7 @@ body {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
+/* Sink animation on arrow from https://github.com/IanLunn/Hover/blob/master/README.md#b-reference-hovercss */
 
 
 /*----ABOUT ----*/
@@ -329,102 +309,8 @@ body {
     margin-top: 15px;
 }
 
-.front1__list {
-    color: #2e3029;
-    display: inline-block;
-    margin-right: 60px;
-    list-style-type: none;
-}
-
-.skills-vert-line {
-    border-left: 3px solid #2e3029;
-    height: 60px;
-    display: inline-block;
-    border-radius: 50px;
-    margin-bottom: 10px;
-}
-
-.front2__list {
-    color: #2e3029;
-    display: inline-block;
-    margin-left: 60px;
-    list-style-type: none;
-
-}
-
-.skills-hor-break {
-    background-color: #2e3029;
-    width: 300px;
-    height: 3px;
-    margin: 10px auto 0 auto;
-    border-radius: 20px;
-}
-
-.back-end-section {
-    margin-top: 30px;
-}
-
-.icon__skills {
-    color: #326273;
-    font-size: 30px;
-}
-
-.title__skills {
-    color: #2e3029;
-}
-
-.skill__list {
-    margin-top: 15px;
-}
-
-.back1__list {
-    color: #2e3029;
-    display: inline-block;
-    margin-right: 60px;
-    list-style-type: none;
-}
-
-.skills-vert-line {
-    border-left: 3px solid #2e3029;
-    height: 60px;
-    display: inline-block;
-    border-radius: 50px;
-    margin-bottom: 10px;
-}
-
-.back2__list {
-    color: #2e3029;
-    display: inline-block;
-    margin-left: 60px;
-    list-style-type: none;
-
-}
-
-.skills-hor-break {
-    background-color: #2e3029;
-    width: 300px;
-    height: 3px;
-    margin: 10px auto 0 auto;
-    border-radius: 20px;
-}
-
-.tools-section {
-    margin-top: 30px;
-}
-
-.icon__skills {
-    color: #326273;
-    font-size: 30px;
-}
-
-.title__skills {
-    color: #2e3029;
-}
-
-.skill__list {
-    margin-top: 15px;
-}
-
+.front1__list,
+.back1__list,
 .tools1__list {
     color: #2e3029;
     display: inline-block;
@@ -440,12 +326,27 @@ body {
     margin-bottom: 10px;
 }
 
+.front2__list,
+.back2__list,
 .tools2__list {
     color: #2e3029;
     display: inline-block;
     margin-left: 60px;
     list-style-type: none;
 
+}
+
+.skills-hor-break {
+    background-color: #2e3029;
+    width: 300px;
+    height: 3px;
+    margin: 10px auto 0 auto;
+    border-radius: 20px;
+}
+
+.back-end-section,
+.tools-section {
+    margin-top: 30px;
 }
 
 /*----WORK----*/
@@ -464,7 +365,7 @@ body {
 
 .project__background {
     background-color: #2e3029;
-    height: 370px;
+    height: 410px;
     margin-top: 30px;
     z-index: 0;
     border-radius: 5%;
@@ -485,7 +386,7 @@ body {
 
 .project__description {
     color: #fdfdfd;
-    width: 300px;
+    width: 280px;
     margin: 0 auto;
 }
 
@@ -610,9 +511,102 @@ body {
 }
 
 
-
-
 /*----MEDIA QUERIES----*/
 
+@media (min-width: 768px) {
+    .mburger--tornado {
+        position: absolute;
+        top: 10px;
+        left: 85%;
+    }   
 
+    .formal__header {
+        color: #fdfdfd;
+        text-align: center;
+    }
+
+    .informal__header {
+        color: #fdfdfd;
+        text-align: center;
+        
+    }
+
+    .trait__list {
+        margin-top: 15px;
+    }
+
+    .formal__list {
+        color: #fdfdfd;
+        line-height: 1.9;
+        font-size: .85rem;
+        list-style-type: none;
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .vert-line {
+        border-left: 3px solid #fdfdfd; 
+        height: 150px; 
+        left: 8%;
+        margin-top: 25px;
+    }
+
+    .informal__list {
+        color: #fdfdfd;
+        line-height: 1.9;
+        font-size: .85rem;
+        list-style-type: none;
+        margin-top: 15px;
+        text-align: center;
+        margin-right: 60px;
+    }
+
+    .project__background {
+        background-color: #2e3029;
+        height: 410px;
+        width: 70%;
+        margin: 30px auto 0 auto;
+        z-index: 0;
+        border-radius: 5%;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .mm-menu {
+        display: none;
+    }
+    .mburger--tornado {
+        display: none;
+    }
+
+    .navbar {
+        display: inherit;
+    }
+
+    .navbar-nav {
+        display: relative;
+        left: 200px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #navbarNav > ul {
+        margin-left: 35vw;
+        font-size: 1.5rem;
+    }
+
+    #navbarNav > ul > a.nav-link {
+        color: #2e3029;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
 
