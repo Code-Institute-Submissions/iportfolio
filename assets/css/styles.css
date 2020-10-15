@@ -28,6 +28,7 @@ hover link color = #9b9b9b;
 
 body {
     font-family: "Signika", sans-serif;
+    background-color: #fdfdfd;
 }
 
 .section-break {
@@ -55,6 +56,9 @@ body {
 
 #my-header {
     position: sticky;
+    background-color: #f6f5f5;
+    padding-bottom: 20px;
+    
 }
 
 #logo {
@@ -124,7 +128,7 @@ body {
     position: relative;
     width: 290px;
     padding: 20px 0;
-    background-color: #326273;
+    background-color: #568799; /*lighter than main blue for readability*/
     border-radius: 40px;
     margin-top: 150px;
     margin-left: auto;

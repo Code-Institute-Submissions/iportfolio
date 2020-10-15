@@ -10,14 +10,11 @@ Mmenu.configs.classNames.selected = "active";
                                     "position-right"]
 
                     });
+
+                    new Mhead( "#my-header", {
+                        hide: 200
+                    });
                 }
             );
 
-document.addEventListener(
-        "DOMContentLoaded", () => {
-            new mhead( "#my-header", {
-                pin: 100
-            });
-        }
-    );
             
