@@ -58,7 +58,7 @@ body {
     position: sticky;
     background-color: #f6f5f5;
     padding-bottom: 20px;
-    margin-bottom: 100px;
+    
     
 }
 
@@ -131,7 +131,7 @@ body {
     padding: 20px 0;
     background-color: #568799; /*lighter than main blue for readability*/
     border-radius: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -670,8 +670,8 @@ body {
     .hero__background {
         position: relative;
         width: 500px;
-        height: 290px;
-        background-color: #326273;
+        height: 270px;
+        background-color:#568799;
         border-radius: 40px;
         margin-top: 150px;
         margin-left: auto;
@@ -926,5 +926,13 @@ body {
     .dark-background {
         height: 550px;
         width: 100%;
+    }
+
+    .about-main-text {
+        width: 265px;
+    }
+
+    .hero__background {
+        margin-top: 40px;
     }
 }
