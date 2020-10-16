@@ -58,6 +58,7 @@ body {
     position: sticky;
     background-color: #f6f5f5;
     padding-bottom: 20px;
+    margin-bottom: 100px;
     
 }
 
@@ -414,16 +415,12 @@ body {
     font-size: 20px;
 }
 
-#my-page > div.container-fluid.p-0 > div:nth-child(5) > div > button > a {
+#my-page > div.container-fluid.p-0 > div:nth-child(4) > div > a {
     color: #fdfdfd
 }
 
-#my-page > div.container-fluid.p-0 > div:nth-child(5) > div > button > a:hover {
+#my-page > div.container-fluid.p-0 > div:nth-child(4) > div > a:hover {
     color: #a3a3a3;
-}
-
-#work a {
-    color: #fdfdfd;
 }
 
 .desktop-project__content {
@@ -631,11 +628,6 @@ body {
         width: 100%;
     }
 
-    .navbar-nav {
-        display: relative;
-        left: 200px;
-    }
-
     #logo {
         display: none;
     }
@@ -653,6 +645,14 @@ body {
         font-size: 2rem;
         font-weight: 700;
         padding-left: 100px;
+    }
+
+    .formal__header {
+      margin-right: 30px;
+    }
+
+    .informal__header {
+       margin-left: 30px;
     }
 
     .desktop-project__content {
@@ -764,11 +764,11 @@ body {
         margin-top: 15px;
     }
 
-    .front1__list,
-    .back1__list,
-    .tools1__list {
+    .desktop-skills {
         margin-right: 0; 
         font-size: 1.5rem;
+        display: inline;
+        list-style-type: none;
     }
 
     .skills-vert-line {
@@ -777,7 +777,10 @@ body {
 
     .front2__list,
     .back2__list,
-    .tools2__list {
+    .tools2__list,
+    .front1__list,
+    .back1__list,
+    .tools1__list  {
         display: none;
     }
 
@@ -789,10 +792,6 @@ body {
     .tools-section,
     .front-end-section {
         margin-top: 100px;
-    }
-
-    .desktop-skills {
-        display: inherit;
     }
 
     .desktop-right-project__background {
@@ -907,6 +906,14 @@ body {
 
     .desktop-form__content {
         width: 700px;  
+    }
+
+    .formal__header {
+      margin-right: 90px;
+    }
+
+    .informal__header {
+       margin-left: 90px;
     }
 }
 
