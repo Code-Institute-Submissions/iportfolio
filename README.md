@@ -152,7 +152,7 @@ Below I include wireframe images from both Balsamiq and XD and feature descripti
 
 #### Mobile View Home Section
 
-![image of balsamiq wireframe home section mobile view].  (assets/images/readme/wire-mob/wire-home.jpg)
+![image of balsamiq wireframe home section mobile view](https://github.com/louparker/iportfolio/blob/master/assets/images/readme/wire-mob/wire-home.jpg)
 
 A - An early decision was made to have a clear hero section as the starting point of the site. The purpose of this section was to draw attention to the focus of the site, with the text stating who I am and what I do, immediately providing the reader with relative information. I also decided that I wanted this hero element to be neighboured by smaller relevent elements such as some sort of availability and a link to further information.
 
@@ -186,8 +186,7 @@ For the about section, I decided to use a dark barckground on with white colored
 
 #### Mobile View Skills Section
 
-![image of balsamiq wireframe skills section mobile view]
-(assets/images/readme/wire-mob/wire-skills.jpg)
+![image of balsamiq wireframe skills section mobile view](assets/images/readme/wire-mob/wire-skills.jpg)
 
 J – The skills section also follows the same thought process of being broken up into smaller sections and having a logical structure. I utilised relevant icons to reinforce the ideas of each mini section in the readers mind. 
 
@@ -195,65 +194,55 @@ Front End has a desktop which is the main viewport for many people and goes hand
 
 Underneath each icon is the title of each mini section followed by a similar side by side list separated by a vertical line (not in wireframe) and each section (apart from the last one) is separated by a horizontal line.
 
-![image of xd wireframe skills section mobile view]
-(assets/images/readme/wire-mob/xd-skills.jpg)
+![image of xd wireframe skills section mobile view](assets/images/readme/wire-mob/xd-skills.jpg)
 
 The skills section has color added to the icons to highlight the draw attention to them and highlight their relevance in each row. For each row section, the titles are in a larger font and bold which draws attention to them giving the ideal flow of information to the reader.
 
 #### Mobile View Work Section
 
-![image of balsamiq wireframe work section mobile view]
-(assets/images/readme/wire-mob/wire-work.jpg)
+![image of balsamiq wireframe work section mobile view](assets/images/readme/wire-mob/wire-work.jpg)
 
 K – The work section employs a now familiar structural concept to the about me section. An eye-catching picture is followed by the name of the project, the tech/languages used and a brief description of the project. This is really giving the user the most relevant information in the most easy and accessible manner. There is also a visit button (not in wireframe) which takes the reader to the actual project site and will open in a new tab. The familiarity of the structure of the site would hopefully be within the reader by now which would make the whole experience of going through the site, much more cohesive and enjoyable.
 
-![image of xd wireframe work section mobile view]
-(assets/images/readme/wire-mob/xd-work.jpg)
+![image of xd wireframe work section mobile view](assets/images/readme/wire-mob/xd-work.jpg)
 
 The work section was intended to have a similar structure to the about section with regards to the darker background. At this point I thought it might be good to use a lighter background from the about section but I later decided against this in favour of keeping consistent styling throughout the site. The darker background also was separated from the image in the final site due to the difficulty of having it halfway up the picture and making it work responsively.
 
 #### Mobile View Contact Section
 
-![image of balsamiq wireframe work section mobile view]
-(assets/images/readme/wire-mob/wire-work.jpg)
+![image of balsamiq wireframe work section mobile view](assets/images/readme/wire-mob/wire-work.jpg)
 
 L, M & N – The contact section is broken up into two mini sections. I wanted to again give easy access to relevant information so the first section is simply a phone number and email address. I also thought it wise to include a contact form to give the reader the opportunity to easy send a message/email to me straight from the site. This is catering to different potential users and makes this section a little more accessible by not forcing the opening of another page/app to contact me.
 
-![image of xd wireframe work section mobile view]
-(assets/images/readme/wire-mob/xd-work.jpg)
+![image of xd wireframe work section mobile view](assets/images/readme/wire-mob/xd-work.jpg)
 
 The contact section is pretty much as it is in the balsamiq wireframe but in the final site, I decided against having a blue container for the contact form and kept a white background. The thought behind this being that I wanted to keep the clean look of the website with color serving purpose and not just for the sake of it. A blue container for the contact form just was not necessary & does not marjorly increase the useability of the contact form for this screen size.
 
 #### Mobile View Footer Section
 
-![image of balsamiq wireframe footer section mobile view]
-(assets/images/readme/wire-mob/wire-footer.jpg)
+![image of balsamiq wireframe footer section mobile view](assets/images/readme/wire-mob/wire-footer.jpg)
 
 O – The footer provides links to instagram where a user can go to have a more personal view of myself, my linkedin for a professional showcase and my github to check out more of my work. This section is outlined by a simple horizontal line with a bit of top margin after any former section.
 
-![image of xd wireframe footer section mobile view]
-(assets/images/readme/wire-mob/xd-footer.jpg)
+![image of xd wireframe footer section mobile view](assets/images/readme/wire-mob/xd-footer.jpg)
 
 The footer was kept the same as it serves its purpose well enough as it was. 
 
 #### Mobile View Nav Section
 
-![image of balsamiq wireframe nav section mobile view]
-(assets/images/readme/wire-mob/wire-nav.jpg)
+![image of balsamiq wireframe nav section mobile view](assets/images/readme/wire-mob/wire-nav.jpg)
 
 P – The open navigation menu is meant to be clean and work as expected. The page section links are in big font and well separated, the position of the X and the functionality of the menu (mmenu.js plug-in) means that the user can press the X or just click anyway outside the menu element to go close it and go back to the main site. 
 
 Q – This would have been a good feature to have but there was an issue which will be talked about in the “features to add/bugs” section.
 
-![image of xd wireframe nav section mobile view]
-(assets/images/readme/wire-mob/xd-nav.jpg)
+![image of xd wireframe nav section mobile view](assets/images/readme/wire-mob/xd-nav.jpg)
 
 The off canvas nav was given a dark background and white text and spaced out section links for ease of use. The main page is also pushed to the side and dimmed out. The dimmed whole visible dimmed out section of the page works as a back button which closes the nav menu and returns you to the main site view.
 
 #### Desktop View Home Section
 
-![image of balsamiq wireframe home section deskop view]
-(assets/images/readme/wire-desk/wire-desk-home.jpg)
+![image of balsamiq wireframe home section deskop view](assets/images/readme/wire-desk/wire-desk-home.jpg)
 
 A – The logo/title stays the same, just responively sizes. 
 
@@ -261,48 +250,39 @@ B – The menu is not needed to be off-canvas so there now a sticky horizontal n
 
 C – The hero section also responsively sizes to the larger viewport.
 
-![image of xd wireframe home section desktop view]
-(assets/images/readme/wire-desk/xd-desk-home.jpg)
+![image of xd wireframe home section desktop view](assets/images/readme/wire-desk/xd-desk-home.jpg)
 
 This section retains the structural differences mentioned earlier for the desktop view and keeps the colors also mentioned earlier. In the final version the horizontal line between the work button and the arrow icon is also there. 
 
 #### Desktop View About Section
 
-![image of balsamiq wireframe about part 1 section deskop view]
-(assets/images/readme/wire-desk/wire-desk-about.jpg)
-![image of balsamiq wireframe about part 2 section deskop view]
-(assets/images/readme/wire-desk/wire-desk-about2.jpg)
+![image of balsamiq wireframe about part 1 section deskop view](assets/images/readme/wire-desk/wire-desk-about.jpg)
+![image of balsamiq wireframe about part 2 section deskop view](assets/images/readme/wire-desk/wire-desk-about2.jpg)
 
 D & E – The structure of the about me section changes to be more horizontaly based to take advantage of the extra screen real estate. The picture is in the same row as the description keeping a structural familiarity. The trait list also responsively sizes but not to the extent seen in the wireframe compared to the final look.
 
-![image of xd wireframe about part 1 section desktop view]
-(assets/images/readme/wire-desk/xd-desk-about.jpg)
-![image of xd wireframe about part 2 section desktop view]
-(assets/images/readme/wire-desk/xd-desk-about2.jpg)
+![image of xd wireframe about part 1 section desktop view](assets/images/readme/wire-desk/xd-desk-about.jpg)
+![image of xd wireframe about part 2 section desktop view](assets/images/readme/wire-desk/xd-desk-about2.jpg)
 
 In this section I decided to reduce the overall size of it compared to this mock up. There is a large black colored container where a smaller image and the descriptive text sit parallel to each other. Just below that you have the trait list headings followed by the trait lists themselves. This part was made smaller so as to keep all of the about information on one “page” and make it as easily digestible as possible.
 
 #### Desktop View Skills Section
 
-![image of balsamiq wireframe skills section deskop view]
-(assets/images/readme/wire-desk/wire-desk-skills.jpg)
+![image of balsamiq wireframe skills section deskop view](assets/images/readme/wire-desk/wire-desk-skills.jpg)
 
 F – The skills section has been also adjusted to have a horizontal structure with each mini srction laid out in a row separated by vertical lines. This showcases all important info in an easily taken in format, on one “page”. 
 
-![image of xd wireframe skills section desktop view]
-(assets/images/readme/wire-desk/xd-desk-skills.jpg)
+![image of xd wireframe skills section desktop view](assets/images/readme/wire-desk/xd-desk-skills.jpg)
 
 This section also retains the structure of the balsamiq wireframe and the color of the mobile mock up shown earlier.
 
 #### Desktop View Work Section
 
-![image of balsamiq wireframe work section deskop view]
-(assets/images/readme/wire-desk/wire-desk-work.jpg)
+![image of balsamiq wireframe work section deskop view](assets/images/readme/wire-desk/wire-desk-work.jpg)
 
 G – The work/projects section also receives the horizontal structural changes, with each mini section having a picture flanked by textual description and a horizontal line separating each row. They are also mirrored so in the row, the picture will be on right and in the second, the picture is on the left. This adds to the visual separation of each row and mini-section.
 
-![image of xd wireframe work section desktop view]
-(assets/images/readme/wire-desk/xd-desk-work.jpg)
+![image of xd wireframe work section desktop view](assets/images/readme/wire-desk/xd-desk-work.jpg)
 
 The work section has some more obvious styling differences. There is a horizontal black container which starts underneath half of the picture and extends all the way to the right with white colored descriptive text still parallel to the image. This is then mirrored for the next project row with the image to the right and the black colored container stretching to the left of the viewport. 
 
@@ -310,25 +290,21 @@ I thought this would be a different take on the familiar black background & whit
 
 #### Desktop View Contact Section
 
-![image of balsamiq wireframe contact section deskop view]
-(assets/images/readme/wire-desk/wire-desk-contact.jpg)
+![image of balsamiq wireframe contact section deskop view](assets/images/readme/wire-desk/wire-desk-contact.jpg)
 
 H – The contact section is split into two to really emphasise the differing contact methods. To the left are the phone and email details and the right is a full contact form. The viewport width means this would be an expected layout and is an effective use of the page space.
 
-![image of xd wireframe contact section desktop view]
-(assets/images/readme/wire-desk/xd-desk-contact.jpg)
+![image of xd wireframe contact section desktop view](assets/images/readme/wire-desk/xd-desk-contact.jpg)
 
 The contact form also keeps the same structure as the original wireframe but adds the blue and black background colors for the “lets talk” and “leave a message” sections respectively. With the text being white, readability is not an issue and the form input elements are also white providing a good amount of contrast.
 
 #### Desktop View Footer Section
 
-![image of balsamiq wireframe footer section deskop view]
-(assets/images/readme/wire-desk/wire-desk-footer.jpg)
+![image of balsamiq wireframe footer section deskop view](assets/images/readme/wire-desk/wire-desk-footer.jpg)
 
 I – The footer is much the same with it only responsively sizing to take more width and the social media icons becoming larger.
 
-![image of xd wireframe footer section desktop view]
-(assets/images/readme/wire-desk/xd-desk-footer.jpg)
+![image of xd wireframe footer section desktop view](assets/images/readme/wire-desk/xd-desk-footer.jpg)
 
 The footer again maintains its simplicity in structure and styling.
 
