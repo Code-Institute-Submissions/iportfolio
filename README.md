@@ -152,8 +152,7 @@ Below I include wireframe images from both Balsamiq and XD and feature descripti
 
 #### Mobile View Home Section
 
-![image of balsamiq wireframe home section mobile view]
-(assets/images/readme/wire-mob/wire-home.jpg)
+![image of balsamiq wireframe home section mobile view].  (assets/images/readme/wire-mob/wire-home.jpg)
 
 A - An early decision was made to have a clear hero section as the starting point of the site. The purpose of this section was to draw attention to the focus of the site, with the text stating who I am and what I do, immediately providing the reader with relative information. I also decided that I wanted this hero element to be neighboured by smaller relevent elements such as some sort of availability and a link to further information.
 
@@ -165,8 +164,7 @@ D – I thought it could be good to call on more familiarity and use the now com
 
 E – This is a small but important element which can be clicked (is also animated on hover on desktop) to take you down to the next section without having to scroll. It is common practice in web design to give a hint to what is further down a page from a sites homepage to show the reader there is more content. The downward bouncing animation of this arrow icon also tries to feed the thought of more content to the reader. 
 
-![image of xd wireframe home section mobile view]
-(assets/images/readme/wire-mob/xd-home.jpg)
+![image of xd wireframe home section mobile view](assets/images/readme/wire-mob/xd-home.jpg)
 
 On this section, I added the blue to the hero box (later changed to a lighter blue for readability). The text was given the black color apart from the middle line as I wanted to emphasise this. This box is also where I first showcase the what will be common rounded corners aesthetic. 
 
@@ -176,15 +174,13 @@ The work button link is given a green color which is also another pattern to be 
 
 #### Mobile View About Section
 
-![image of balsamiq wireframe about section mobile view]
-(assets/images/readme/wire-mob/wire-about.jpg)
+![image of balsamiq wireframe about section mobile view](assets/images/readme/wire-mob/wire-about.jpg)
 
 F – The title of the next section (and following sections) is meant to be as simple as possible and do only what it should do, indicate the beginning of a new section. The text will be larger and bold to differenciate between normal text as is done in general web formatting.
  
 G, H & I – I wanted the about me section to just make sense, be concise and easy to take information from. Therefore the parts of this section were broken up into expected smaller sections and structured in a way that is very logical. The picture is closely followed by a brief description of myself which is then followed by 2 lists floated on the left and right of the page with a vertical line between (not in wireframe) for differenciation. 
 
-![image of xd wireframe about section mobile view]
-(assets/images/readme/wire-mob/xd-about.jpg)
+![image of xd wireframe about section mobile view](assets/images/readme/wire-mob/xd-about.jpg)
 
 For the about section, I decided to use a dark barckground on with white colored text to provide some freshness in the flow of the page. There is a good amount of contrast between the black background and the white text. The list styling was removed in the final version of the site and the text was aligned to the left and right respectively to allow for vidual separation.
 
