@@ -8,19 +8,19 @@ A showcase of my skills as a developer, to look into my experience & to review t
 ### Table Of Content
 
 1. [Project Goals](#project-goals)
-2. Target Audience
-3. User Stories
+2. [Targer Audience](#target-audience)
+3. [User Stories](#user-stories)
    - User Story Analysis
-4. Design Choices
+4. [Design Choices](#design-choices)
    - Font
    - Color
    - Shapes & Lines
    - General Feel
    - Design Wrap-Up
-5. Wireframes
+5. [Wireframes](#wireframes)
    - Balsamiq
    - Adobe XD
-6. Key Features
+6. [Key Features](#key-features)
    - Off-Canvas Menu for mobile viewports.
    - Animated X button on nav menu
    - Sticky pull down nav bar
@@ -30,16 +30,16 @@ A showcase of my skills as a developer, to look into my experience & to review t
    - Responsively sizing elements
    - Desktop viewport specific styling, taking advantage of space.
    - Hero Section
-7. Features Left Out
-8. Technologies Used
-9. Testing
+7. [Features Left Out](#features-left-out)
+8. [Technologies Used](#technologies-used)
+9. [Testing](#testing)
    - Responsiveness
    - Automated
    - User Story
    - Peer
-10. Known Issues & Problems Encountered
-11. Deployment
-12. Credits
+10. [Known Issues and Problems Encountered](#known-issues-and-problems-encountered)
+11. [Deployment](#deployment)
+12. [Acknowledgements](#acknowledgements)
 
 ### Project Goals
 
@@ -431,7 +431,7 @@ For my website, the desktop viewports mostly gave me a pagespeed score above 90 
 
 This test is based on lighthouse, which is tests performance, best practice, SEO and accessibility and is run on a simulated mobile device on a fast 3g network. Similar to the uptrends test, it then suggests color coded improvements to be made to optimize your site. My site got decent best practice and SEO scores and lower performance score but a very good accessibility score. The suggested improvements were the same as the uptrend test apart from the addition of a suggestion to serve images in next gen formats. These formats include JPEG 200, JPEG XR or WebP. They offer better compression than png or JPEG therefore reducing file download time and data consumption. This is a suggestion that will be taken on board.
 
-![image of my web dev website test results](assets/images/readme/wire-desk/web-dev.png)
+![image of my web dev website test results](assets/images/readme/web-dev.png)
 
 #### User Story Testing
 
@@ -478,7 +478,7 @@ I asked two people who are familiar with we development for their opinions on th
 ![image of darker hero background](assets/images/readme/darker.png)
 ![image of lighter hero background](assets/images/readme/lighter.png)
 
-### Known Issues & Problems Encountered
+### Known Issues and Problems Encountered
 
 - I found the mmenu.js plug-in difficult to work with at first but then seemed to figure it out eventually. The one problem that persists is the lack of working links when including a footer in the slide out menu. The links could not be directed to the intended URL correctly. This is something that could be fixed in the future with more research.
 
