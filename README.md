@@ -559,6 +559,10 @@ Specified code usage includes:
 - Mmenu.js (mburger.js & mhead.js add-ons included) 
 - Cssgradient.io generated color gradient
 
+The following sites were used for beautifying and adding correct vendor prefixes to my code:
+- [Autoprefixer CSS](https://autoprefixer.github.io/)
+- [Code Beautify](https://codebeautify.org/)
+
 #### MEDIA
 Photos in this site were gathered from unsplash.com, specifically after a search of code.
 
@@ -569,6 +573,9 @@ Photos in this site were gathered from unsplash.com, specifically after a search
 - This site was used for research on user stories:
 https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/
 
+- This site was used for research on colors:
+https://www.dcdevshop.com/what-colors-on-website/
+
 
 #### ACKNOWLEDGEMENTS
 These sites were used for design inspiration:
@@ -578,6 +585,9 @@ https://onepagelove.com/
 https://dev.to/jatinrao/20-developer-portfolios-for-inspiration-2k06
 
 https://www.awwwards.com/
+
+This site for further understanding Markdown language:
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
 
 Stack Overflow was a constant aid when troubleshooting and though no specific code was directly copied, ideas and learnings were taken to make my site function the way I intended it to.
 

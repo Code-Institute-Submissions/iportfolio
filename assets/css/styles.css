@@ -425,17 +425,13 @@ a:hover {
 .work__btn {
   background-color: #729b79;
   border-radius: 40px;
-  color: #fdfdfd;
+  color: #fdfdfd !important;
   margin-top: 20px;
   font-size: 20px;
 }
 
-#my-page > div.container-fluid.p-0 > div:nth-child(4) > div > a {
-  color: #fdfdfd;
-}
-
-#my-page > div.container-fluid.p-0 > div:nth-child(4) > div > a:hover {
-  color: #a3a3a3;
+.work__btn:hover {
+    color: #a3a3a3 !important;
 }
 
 .desktop-project__content {
@@ -524,9 +520,6 @@ a:hover {
 }
 
 
-
-
-
 /*----FOOTER----*/
 
 .footer-hor-break {
@@ -534,7 +527,6 @@ a:hover {
   height: 3px;
   margin: 10px auto 0 auto;
   border-radius: 20px;
-  margin-top: 70px;
 }
 
 .social__icons {
@@ -931,7 +923,7 @@ a:hover {
   }
 
   .footer__content {
-    margin-top: 200px;
+    margin-top: 120px;
   }
 }
 
