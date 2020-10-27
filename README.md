@@ -250,7 +250,7 @@ Q – This would have been a good feature to have but there was an issue which w
 
 ![image of xd wireframe nav section mobile view](assets/images/readme/wire-mob/xd-nav.jpg)
 
-The off-canvas nav was given a dark background and white text and spaced out section links for ease of use. The main page is also pushed to the side and dimmed out. The dimmed visible section of the page works as a back button which closes the nav menu and returns you to the main site view.
+The off-canvas nav was given a dark background and white text and spaced out section links for ease of use. The main page is also pushed to the side and dimmed out. The dimmed visible section of the page works as a back button which closes the nav menu and returns you to the main site view. The functionality for the menu links to have green colored writing when that section was active, could not be figured out for the time being with the mmenu.js plug-in. So this was kept as normal without any usage of active sections/pages.
 
 -----
 
@@ -494,7 +494,7 @@ This test is based on lighthouse, which is tests performance, best practice, SEO
 
 #### Links & Functionality testing
 
-- I went through links on the nav menu, they all worked with the functionality operating as planned. The "my work" link in the hero section also works as intended. The project links are dead links and are only there show indicate functionality, so they serve their purpose. The social media links in the footer also work as intended, opening in new tabs to the correct URL. I also checked the form functionality by clicking submit without entering anything in the input forms. As expected there was a message stating that some input was required.
+- I went through links on the nav menu, they all worked with the functionality operating as planned. The "my work" link in the hero section also works as intended. The project links are dead links and are only there show indicate functionality, so they serve their purpose. The social media links in the footer also work as intended, opening in new tabs to the correct URL. I also checked the form functionality by clicking submit without entering anything in the input forms. As expected there was a message stating that some input was required. The work section contains fake project descriptions and a link to a dummy site as this was created just to illustrate the look of the section and its functionality.
 
 #### Peer testing
 
@@ -559,9 +559,10 @@ Specified code usage includes:
 - Mmenu.js (mburger.js & mhead.js add-ons included) 
 - Cssgradient.io generated color gradient
 
-The following sites were used for beautifying and adding correct vendor prefixes to my code:
+The following sites were used for beautifying, optimizing images and adding correct vendor prefixes to my code:
 - [Autoprefixer CSS](https://autoprefixer.github.io/)
 - [Code Beautify](https://codebeautify.org/)
+- [TinyPNG](https://tinypng.com/)
 
 #### MEDIA
 Photos in this site were gathered from unsplash.com, specifically after a search of code.
