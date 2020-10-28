@@ -5,6 +5,9 @@ Mmenu.configs.classNames.selected = "active";
                 "DOMContentLoaded", () => {
                     const menu = new Mmenu( "#my-menu", {
                         slidingSubmenus: false,
+                        onClick: {
+                            close: true
+                        },
                         extensions: ["theme-dark",
                                     "pagedim-black", 
                                     "position-right"]
