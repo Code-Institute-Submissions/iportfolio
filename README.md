@@ -6,7 +6,7 @@ This is a portfolio website, providing an online accessible go-to space for recr
 A showcase of my skills as a developer, to look into my experience & to review the specifics of my work.
 
 This is a link to the live website, hosted on GitHub Pages:
-https://louparker.github.io/iportfolio/#about
+https://louparker.github.io/iportfolio/index.html
 
 ### Table Of Content
 
