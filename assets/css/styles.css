@@ -237,20 +237,9 @@ a:hover {
   margin-top: 55px;
 }
 
-.dark-background {
-  background-color: #2e3029;
-  height: 500px;
-  margin-top: 30px;
-  border-radius: 5%;
-}
-
 .about__img {
   width: 330px;
   margin-top: 130px;
-}
-
-.desktop-about__img {
-  display: none;
 }
 
 .about-main-text {
@@ -259,20 +248,27 @@ a:hover {
   color: #fdfdfd;
 }
 
+.dark-background {
+  background-color: #2e3029;
+  height: 500px;
+  margin-top: 30px;
+  border-radius: 5%;
+}
+
+.desktop-about__img {
+  display: none;
+}
+
 .trait__headers {
   margin-top: 70px;
 }
 
-.formal__header {
-  color: #fdfdfd;
-}
-
-.informal__header {
-  color: #fdfdfd;
-}
-
 .trait__list {
   margin-top: 15px;
+}
+
+.formal__header {
+  color: #fdfdfd;
 }
 
 .formal__list {
@@ -288,6 +284,10 @@ a:hover {
   height: 150px;
   left: 8%;
   margin-top: 25px;
+}
+
+.informal__header {
+  color: #fdfdfd;
 }
 
 .informal__list {
@@ -401,13 +401,13 @@ a:hover {
   margin-top: 15px;
 }
 
-.languages {
-  color: #fdfdfd;
-}
-
 .project__description {
   color: #fdfdfd;
   margin: 0 auto;
+}
+
+.languages {
+  color: #fdfdfd;
 }
 
 .visit__btn {
@@ -466,9 +466,6 @@ a:hover {
   margin-left: 13px;
 }
 
-.email__line {
-}
-
 .email__label {
   display: inline-block;
   margin-right: 15px;
@@ -479,25 +476,25 @@ a:hover {
   margin-left: 15px;
 }
 
-.desktop-contact-details {
-  display: none;
-}
-
 .message__title {
   font-size: 1.5rem;
   margin-top: 40px;
+}
+
+.desktop-contact-details {
+  display: none;
 }
 
 .desktop-message__header {
   display: none;
 }
 
-.form__content {
-  margin-top: 30px;
-}
-
 .desktop-form__content {
   display: none;
+}
+
+.form__content {
+  margin-top: 30px;
 }
 
 .name-form-label,
@@ -558,6 +555,26 @@ a:hover {
 
 
 /*----MEDIA QUERIES----*/
+
+@media (max-width: 359px) {
+  #my-page > div.container-fluid.p-0 > div:nth-child(10) > div > div > div:nth-child(1) > div.col-12.col-xl-4.text-center > p {
+    padding-right: 40px;
+    margin-right: 0;
+  }
+
+  .dark-background {
+    height: 550px;
+    width: 100%;
+  }
+
+  .about-main-text {
+    width: 265px;
+  }
+
+  .hero__background {
+    margin-top: 40px;
+  }
+}
 
 @media (min-width: 768px) {
   .mburger--tornado {
@@ -946,22 +963,32 @@ a:hover {
   }
 }
 
-@media (max-width: 359px) {
-  #my-page > div.container-fluid.p-0 > div:nth-child(10) > div > div > div:nth-child(1) > div.col-12.col-xl-4.text-center > p {
-    padding-right: 40px;
-    margin-right: 0;
+@media (min-width: 2000px) {
+  .formal__header {
+    margin-right: 12%;
   }
 
-  .dark-background {
-    height: 550px;
-    width: 100%;
+  .informal__header {
+    margin-left: 12%;
+  }
+}
+
+@media (min-width: 3000px) {
+  .formal__header {
+    margin-right: 13%;
   }
 
-  .about-main-text {
-    width: 265px;
+  .informal__header {
+    margin-left: 13%;
+  }
+}
+
+@media (min-width: 4000px) {
+  .formal__header {
+    margin-right: 14%;
   }
 
-  .hero__background {
-    margin-top: 40px;
+  .informal__header {
+    margin-left: 14%;
   }
 }
